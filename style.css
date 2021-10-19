@@ -254,13 +254,13 @@ td{
 }
 .workbox h4 {
   font-family:Sriracha, sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
 }
 .workbox ul{
   font-family: roboto, sans-serif;
   text-align: center;
-  font-size: 15px;
+  font-size: 30px;
   color: white;
 }
 .workbox1 {
@@ -328,17 +328,148 @@ font-size: 30px;
   color: var(--white);
 }
 
+/*Concepts I learned CSS*/
 
+.concepts img {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right:auto;
+}
 
+.concepts{
+  display: grid;
+  grid-gap: 2px;
+  justify-content:center;
+  grid-template-areas:
+  'cbox1 cbox2 cbox6'
+  'cbox3 cbox4 cbox5';
+}
 
+.cbox1{
+  grid-area: cbox1;
+}
+.cbox2{
+  grid-area: cbox2;
+}
+.cbox3{
+  grid-area: cbox3;
+}
+.cbox4{
+  grid-area: cbox4;
+}
+.cbox5{
+  grid-area: cbox5;
+}
+.cbox6{
+  grid-area: cbox6;
+}
+.concepts h5{
+  font-family:Sriracha, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
 
+.concepts p{
+  font-family: roboto, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
 
+.cbox1,.cbox3,.cbox5, .cbox6{
+  font-family:Sriracha, sans-serif;
+  font-size: 30px;
+  background: var(--medium);
+  color: var(--white);
+}
+.cbox1 img,.cbox3 img,.cbox5 img, .cbox6 img{
+  margin-left:auto;
+  margin-right:auto;
 
+}
+.cbox2,.cbox4 {
+  font-family: roboto, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  background: var(--white);
+  color: var(--dark);
+  border-style: dotted;
+  border-width: thick ;
+}
+  @media(max-width:700px){
+  .concepts{
 
+    grid-template-areas:
+    'cbox1 cbox2'
+    'cbox3 cbox4'
+    'cbox5 cbox6';
+}
+    .tboxes{
+      grid-template-areas:
+      'tbox1 tbox1'
+      'tbox2 tbox5'
+      'tbox3 tbox4';
+}
+.workboxes {
+  grid-template-areas:
+  'workbox1'
+  'workbox2'
+  'workbox3';
+}
+.workbox img{
+max-width: 50%;
+margin-left: auto;
+margin-right:auto;
+}
+}
+@media (max-width:500px){
+  .concepts{
 
+    grid-template-areas:
+    'cbox1'
+    'cbox2'
+    'cbox3'
+    'cbox4'
+    'cbox5'
+    'cbox6';
+  }
+    .tboxes{
+      grid-template-areas:
+      'tbox1'
+      'tbox2'
+      'tbox3'
+      'tbox4'
+      'tbox4'
+      'tbox5'
+}
+.aboutme{
+  grid-template-areas:
+  'box1'
+  'box2'
+  'box3'
 
+}
 
-
+.hobbies{
+  grid-template-areas:
+  'hbox1'
+  'hbox2'
+  'hbox3'
+  'hbox4'
+  'hbox5';
+}
+.workboxes {
+  justify-items: center;
+  grid-template-areas:
+  'workbox1'
+  'workbox2'
+  'workbox3';
+}
+.workbox img{
+max-width: 50%;
+margin-left: auto;
+margin-right:auto;
+}
+}
 
 
 
