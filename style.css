@@ -191,10 +191,47 @@ footer{
    font-size: 20px;
 }
 
+/*Table CSS*/
 
+.table{
+  background-color: var(--light);
+  background-size: cover;
+  text-align: center;
+}
+table{
+  margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+caption{
+  font-family:Sriracha, sans-serif;
+  font-size: 20px;
+  color: var(--blue);
+}
+table, th, td {
+  border: 1px solid var(--white);
 
+}
+th{
+  background-color: var(--dark);
+  color: var(--white);
+  font-family:Sriracha, sans-serif;
+  font-size: 20px;
+}
 
+td{
+    font-family: roboto, sans-serif;
+    color: var(--blue);
+    height: 50px;
+    font-size: 15px;
+}
 
+.table p{
+  font-family:Sriracha, sans-serif;
+  font-size: 15px;
+  background-color: var(--dark);
+  color: var(--white);
+}
 
 
 
