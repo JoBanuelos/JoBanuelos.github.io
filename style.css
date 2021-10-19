@@ -6,6 +6,27 @@
 --medium: #fcaf58;
 --dark: #ff8c42;
 }
+/*Wrap CSS */
+.wrap{
+  display: grid;
+  background-color: var(--medium);
+  background-size: cover;
+  grid-template-areas:
+  'wbox1 wbox2';
+}
+.wbox1{
+  grid-area: wbox1;
+  justify-items: center;
+}
+
+.wbox2{
+  grid-area: wbox2;
+  font-size: 28px;
+  font-family:Sriracha, sans-serif;
+}
+.fas-5{
+font-size: 75px;
+}
 /* Navigation Bar CSS*/
 
 nav ul  {
@@ -23,6 +44,10 @@ a{
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
+  font-family:Sriracha, sans-serif;
+    border-style: dotted;
+    border-width: thick ;
+
 }
 
 nav ul a:hover{
@@ -49,6 +74,8 @@ text-decoration: none;
   display: grid;
   grid-gap:2px;
   justify-items: center;
+  background-color: var(--light);
+
   grid-template-areas:
   'box1 box1'
   'box3 box2'
@@ -71,10 +98,21 @@ text-decoration: none;
   max-width: 50%;
 }
 
+.aboutme h3{
+  font-family:Sriracha, sans-serif;
+  font-size: 40px;
+}
+.aboutme p {
+  font-family: roboto, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
 .hobbies{
   display: grid;
   grid-gap:2px;
   justify-items: center;
+  margin-top: 20px;
+  background-color: var(--medium);
   grid-template-areas:
   'hbox1 hbox1 hbox1'
   'hbox2 hbox2 hbox2'
@@ -98,18 +136,59 @@ text-decoration: none;
   grid-area: hbox5;
 }
 
-/* The blockquote "Why" CSS*/
+.hbox{
+  background-color: var(--blue);
+  border-color: var(--blue);
+  border-width:50px;
+  border-style: dotted;
+  margin: 5px;
+  margin-top: 25px;
+}
+.hobbies h3{
+  font-family:Sriracha, sans-serif;
+  font-size: 40px;
+}
 
+.hobbies h4, .hobbies h6{
+  font-family: roboto, sans-serif;
+  text-align: center;
+}
+.hobbies h4{
+  font-size:30px;
+}
+
+.hobbies h6{
+  font-size: 15px;
+}
+
+.fa-7{
+font-size: 175px;
+color: var(--white);
+}
+/* The blockquote "Why" CSS*/
+.why{
+  background-color: var(--light);
+  background-size: cover;
+}
 .why h3{
   text-align: center;
+  font-family:Sriracha, sans-serif;
+  font-size: 40px;
 }
 
 blockquote{
-
+font-family: roboto, sans-serif;
+font-size: 20px;
 }
+
+/*Footer CSS*/
 
 footer{
   text-align: center;
+   background-color: var(--dark);
+   Color:var(--white);
+   font-family:Sriracha, sans-serif;
+   font-size: 20px;
 }
 
 
