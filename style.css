@@ -238,6 +238,7 @@ td{
 .workboxes {
   display:grid;
   justify-items:center;
+  background-color: var(--dark);
   grid-template-areas:
   'workbox2 workbox1'
   'workbox3 workbox1';
@@ -247,9 +248,20 @@ td{
 
 }
 .workbox img{
-  max-width: 60%;
+  max-width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+.workbox h4 {
+  font-family:Sriracha, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.workbox ul{
+  font-family: roboto, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  color: white;
 }
 .workbox1 {
   grid-area: workbox1;
@@ -263,12 +275,58 @@ td{
 /*Traits CSS*/
 
 
+.tboxes{
+  display: grid;
+  justify-items: center;
+  grid-template-areas:
+  'tbox1 tbox1 tbox1 tbox1 tbox1'
+  'tbox2 tbox3 tbox4 tbox4 tbox5'
 
+}
+  .tbox1{
+grid-area: tbox1;
 
+}
 
+.tbox1 h3{
+  font-family:Sriracha, sans-serif;
+  font-size: 30px;
+  color: var(--dark);
+}
+.tbox2{
+grid-area: tbox2;
+}
+.tbox3{
+grid-area: tbox3;
+}
+.tbox4{
+grid-area: tbox4;
+}
+.tbox5{
+grid-area: tbox5;
+}
 
+.tbox img{
+  max-width: 50%;
+}
 
+.tbox2, .tbox4{
+  color: var(--dark);
+}
+.tbox h5 {
+font-family:Sriracha, sans-serif;
+font-size: 30px;
+}
 
+.tbox p{
+  font-family: roboto, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+.tbox3, .tbox5{
+  background: var(--dark);
+  color: var(--white);
+}
 
 
 
