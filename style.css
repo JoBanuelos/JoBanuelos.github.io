@@ -56,7 +56,7 @@ nav ul a:hover{
 }
 
  a:link {
-  color: var(--dark);
+  color: var(--white);
   text-decoration: none;
 }
 
