@@ -19,7 +19,7 @@ body{
 /*Wrap CSS */
 .wrap{
   display: grid;
-  background-image:url(images/html.jpg);
+  background-image:url(images/html.JPG);
   background-size: cover;
   grid-template-areas:
   'wbox1 wbox2';
