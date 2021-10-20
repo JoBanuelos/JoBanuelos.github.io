@@ -1,3 +1,9 @@
+
+
+/*Name: Chema Banuelos
+Project: Online Profile*/
+
+
 /* My Color Pallette */
 :root {
 --blue: #4e598c;
@@ -6,10 +12,14 @@
 --medium: #fcaf58;
 --dark: #ff8c42;
 }
+
+body{
+  background-image: linear-gradient( #ff8c42, var(--white));
+}
 /*Wrap CSS */
 .wrap{
   display: grid;
-  background-color: var(--medium);
+  background-image:url(images/html.jpg);
   background-size: cover;
   grid-template-areas:
   'wbox1 wbox2';
